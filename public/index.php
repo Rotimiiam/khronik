@@ -7,7 +7,7 @@
 |
 | Checking for Bagisto's installation. If installation is done then move to
 | Laravel portion.
-|
+|jghhjjh
 */
 
 $location = str_replace('\\', '/', getcwd());
