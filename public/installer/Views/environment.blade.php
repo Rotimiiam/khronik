@@ -81,7 +81,7 @@
                                 <div class="form-group col-md-6" id="host_name">
                                     <label for="db_hostname" class="required">Database Hostname</label>
                                     <input type="text" name="host_name" id="db_hostname" class="form-control" value="127.0.0.1"
-                                    data-validation="required length" data-validation-length="max50">
+                                    data-validation="required length" data-validation-length="max500">
                                 </div>
 
                                 <div class="form-group col-md-6" id="port_name">
