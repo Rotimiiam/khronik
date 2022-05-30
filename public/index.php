@@ -6,7 +6,7 @@
 |--------------------------------------------------------------------------
 |
 | Checking for Bagisto's installation. If installation is done then move to
-| Laravel portion.
+| Laravel portion.jjj
 |jghhjjh
 */
 
