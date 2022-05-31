@@ -11,7 +11,6 @@ use Webkul\Category\Repositories\CategoryRepository;
 use Webkul\Core\Contracts\Validations\Slug;
 use Webkul\Inventory\Repositories\InventorySourceRepository;
 use Webkul\Product\Helpers\ProductType;
-use Webkul\Product\Http\Requests\InventoryRequest;
 use Webkul\Product\Http\Requests\ProductForm;
 use Webkul\Product\Models\Product;
 use Webkul\Product\Repositories\ProductAttributeValueRepository;
@@ -190,7 +189,7 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function updateInventories(InventoryRequest $inventoryRequest, $id)
+    public function updateInventories($id)
     {
         $product = $this->productRepository->findOrFail($id);
 

@@ -226,6 +226,7 @@
 
 .product-card-new {
     width: 12rem;
+    height: 385px;
     border: none !important;
     margin: 0 5px 10px 10px;
 
@@ -821,7 +822,6 @@
 
                 button {
                     margin-top: 10px;
-                    width: 100%;
                 }
             }
         }
@@ -2017,10 +2017,10 @@
             margin-top: 0;
 
             &.required:after {
-                content: '*';
+                content: "*";
                 font-size: 16px;
                 margin-left: -1px;
-                color: #f05153;
+                color: #F05153;
             }
         }
 
@@ -2117,22 +2117,22 @@
 
 .full-content-wrapper {
     > .container-fluid {
-        padding: 0;
-        margin: 10px 0;
+        padding: 0 !important;
+        margin-bottom: 60px !important;
 
         > .row {
-            padding: 0 15px;
+            padding: 0 15px !important;
         }
     }
 
     p,
     div {
         > .container-fluid {
-            padding: 0;
-            margin: 10px 0;
+            padding: 0 !important;
+            margin-bottom: 60px !important;
 
             > .row {
-                padding: 0 15px;
+                padding: 0 15px !important;
             }
         }
     }
@@ -2394,6 +2394,7 @@
             transform: none !important;
             padding: 0 !important;
             margin: 0 !important;
+
 
             span {
                 font-size: 24px;

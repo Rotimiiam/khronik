@@ -1,3 +1,4 @@
+.env
 .env.testing
 .idea
 .php_cs.cache
@@ -21,7 +22,7 @@ package-lock.json
 /public/vendor
 /lang/vendor
 /storage/*.key
-/vendor
 /storage/dcc-data/
+/vendor
 yarn.lock
 yarn-error.log
